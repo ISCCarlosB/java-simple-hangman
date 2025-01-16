@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class Hangman {
     public static void main(String[] args) throws Exception {
         
+        /// NEXT TIME IT WILL ALLOW TO RANDOMIZE THE WORD FROM A THOUSAND WORDS: 
+        /// Such as Countries, Cities, City places, Planets, Animals, School stuff, Languages, Famous places, Famous people, 
+        /// verbs, adjectives, etc).
         
-        // NEXT TIME IT WILL ALLOW TO RANDOMIZE THE WORD FROM A THOUSAND WORDS 
-        // (Countries, Cities, City places, Planets, Animals, School stuff, Languages, Famous places, Famous people, verbs, adjectives, etc).
         String secretWord = "STRANGER";
         int fails = 0;
         int maxFails = 10;

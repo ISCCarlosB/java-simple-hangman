@@ -1,18 +1,14 @@
-## Getting Started
+# Getting Started
+This is a simple console game created on VS Code for practicing pure Java language.
+When running it just ask for entering a char, each time you enter a letter, the program determines if the letter is part of the secret word.
+You can modify as needed to give more chances (trials) or add a random dictionary as suggested in comments here added for easy reading:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
 ## Folder Structure
-
-The workspace contains two folders by default, where:
-
+The workspace contains:
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Compiled output files will be generated in the `bin` folder by default.
 
 ## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+No dependencies. It is a pure vanilla java.
